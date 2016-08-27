@@ -19,6 +19,7 @@ if(angular && angular.module)
 						password: '144'
 					  });
 				  };
+				  
 				  $scope.addToSelected=function(item){
 					  console.log("item",item);
 					  $scope.selectedItem=item;
