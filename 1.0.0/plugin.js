@@ -30,7 +30,6 @@ if(angular && angular.module)
 				  
 				  $templateRequest("plugin.html", false).then(
 					function(viewFn) {
-					  
 					  var v = angular.element(viewFn);
 					  angular.element("body").append(v);
 					  $compile(v)(scope);
