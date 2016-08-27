@@ -25,6 +25,9 @@ if(angular && angular.module)
 					  $element.controller("ngModel").$setViewValue(item.username);
 					  $element.controller("ngModel").$render();
 				  };
+				  $scope.submit=function(form){
+					  console.log(form);
+				  };
 				},
 				link: function(scope, element, attrs) {
 				  
